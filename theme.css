@@ -45,7 +45,7 @@
     color: var(--term-fg);
 }
 
-.term-bold { font-weight: bold; }
+.term-bold             { font-weight: bold; }
 
 .term-fg-black         { color: var(--term-black); }
 .term-fg-red           { color: var(--term-red); }
