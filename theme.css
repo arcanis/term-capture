@@ -1,0 +1,82 @@
+.term {
+    --term-bg:            #000000;
+    --term-fg:            #BFC7D5;
+
+    --term-black:         #292D3E;
+    --term-red:           #F07178;
+    --term-green:         #62DE84;
+    --term-yellow:        #FFCB6B;
+    --term-blue:          #75A1FF;
+    --term-magenta:       #F580FF;
+    --term-cyan:          #60BAEC;
+    --term-white:         #ABB2BF;
+
+    --term-brightblack:   #959DCB;
+    --term-brightred:     #F07178;
+    --term-brightgreen:   #C3E88D;
+    --term-brightyellow:  #FF5572;
+    --term-brightblue:    #82AAFF;
+    --term-brightmagenta: #FFCB6B;
+    --term-brightcyan:    #676E95;
+    --term-brightwhite:   #FFFEFE;
+
+    border-radius: 4px;
+
+    margin-left: -20px;
+    margin-right: -20px;
+    
+    padding: 20px;
+}
+
+.term::before {
+    display: block;
+	content: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg viewBox='0 0 400 100' height='10' xmlns='http://www.w3.org/2000/svg'%3E%3Cellipse style='fill: rgb(215, 90, 90);' cx='50' cy='50' rx='50' ry='50'/%3E%3Cellipse style='fill: rgb(248, 230, 34);' cx='200' cy='50' rx='50' ry='50'/%3E%3Cellipse style='fill: rgb(140, 206, 109); paint-order: fill;' cx='350' cy='50' rx='50' ry='50'/%3E%3C/svg%3E");
+
+    margin-bottom: 16px;
+
+    line-height: 10px;
+}
+
+.term {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    white-space: pre;
+    
+    background: var(--term-bg);
+    color: var(--term-fg);
+}
+    
+.term-fg-black         { color: var(--term-black); }
+.term-fg-red           { color: var(--term-red); }
+.term-fg-green         { color: var(--term-green); }
+.term-fg-yellow        { color: var(--term-yellow); }
+.term-fg-blue          { color: var(--term-blue); }
+.term-fg-magenta       { color: var(--term-magenta); }
+.term-fg-cyan          { color: var(--term-cyan); }
+.term-fg-white         { color: var(--term-white); }
+
+.term-fg-brightblack   { color: var(--term-brightblack); }
+.term-fg-brightred     { color: var(--term-brightred); }
+.term-fg-brightgreen   { color: var(--term-brightgreen); }
+.term-fg-brightyellow  { color: var(--term-brightyellow); }
+.term-fg-brightblue    { color: var(--term-brightblue); }
+.term-fg-brightmagenta { color: var(--term-brightmagenta); }
+.term-fg-brightcyan    { color: var(--term-brightcyan); }
+.term-fg-brightwhite   { color: var(--term-brightwhite); }
+
+.term-bg-black         { background-color: var(--term-black); }
+.term-bg-red           { background-color: var(--term-red); }
+.term-bg-green         { background-color: var(--term-green); }
+.term-bg-yellow        { background-color: var(--term-yellow); }
+.term-bg-blue          { background-color: var(--term-blue); }
+.term-bg-magenta       { background-color: var(--term-magenta); }
+.term-bg-cyan          { background-color: var(--term-cyan); }
+.term-bg-white         { background-color: var(--term-white); }
+
+.term-bg-brightblack   { background-color: var(--term-brightblack); }
+.term-bg-brightred     { background-color: var(--term-brightred); }
+.term-bg-brightgreen   { background-color: var(--term-brightgreen); }
+.term-bg-brightyellow  { background-color: var(--term-brightyellow); }
+.term-bg-brightblue    { background-color: var(--term-brightblue); }
+.term-bg-brightmagenta { background-color: var(--term-brightmagenta); }
+.term-bg-brightcyan    { background-color: var(--term-brightcyan); }
+.term-bg-brightwhite   { background-color: var(--term-brightwhite); }
