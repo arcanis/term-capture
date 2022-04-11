@@ -108,7 +108,7 @@ def main():
     output = output.rstrip()
 
     output += '</span>' if span_open else ''
-    output = '<div class="term">%s</div>\n' % output
+    output = '<div class="term"><div class="term-header"></div><div class="term-body">%s</div></div>\n' % output
 
     pyperclip.copy(output)
 
